@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+                <a href="https://www.linkedin.com/in/matias-javier-barrios-5a5776165/" target="_blank"><img src="../../../assets/linkedin.png" id="linkedin"> </a>
+                <a href="https://www.instagram.com/matijavbarrios/" target="_blank"><img src="../../../assets/instagram.png" id="instagram"> </a>
+                <a href="https://github.com/zurdimerqac" target="_blank"><img src="../../../assets/github.png" id="github"> </a>
+                <a href="https://www.facebook.com/maty.kiskeqac/" target="_blank"><img src="../../../assets/facebook.png" id="facebook"> </a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>
+
+
+
